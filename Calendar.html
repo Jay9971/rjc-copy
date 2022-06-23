@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calendar</title>
+    <link href='calendar.css' rel='stylesheet' type='text/css'/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src='https://d33wubrfki0l68.cloudfront.net/js/aad787c8b3edd5462d1f9520c20fb43ee8400e27/calendar.js'></script>
+    <link rel ="icon" type = "imaeg/x-icon" href="Images/logo.png">
+
+	<style>
+		body {
+			  background-image: url("Images/Homepage-bg.jpg");
+		    background-repeat: no-repeat;
+		    background-size: 3000px;
+				margin-top: 8px;
+				margin-left: 10px;
+        overflow-x: hidden;
+		}
+
+	 button {
+		    border-radius: 25px;
+                background-color: rgb(255, 188, 112);
+                color: rgb(187, 0, 255);
+                border-color: rgb(255, 0, 149);
+                font-family: 'Times New Roman', serif;
+                font-size: 24px;
+            }
+      
+		.Button {
+		   margin-right: 5px;
+		   padding: 1.5px 2px;
+		}
+
+		footer {
+		background-color: orange;
+		font-family: cursive;
+		text-align: center
+		}
+    #month {
+      font-family: cursive;
+    }
+    #year {
+      font-family: cursive;
+    }
+		
+        </style>
+    </head>
+<body>
+    <a href = "index.html"><button class="Button"> Home </button></a>
+    <a href = "Current_Past.html"><button class="Button">Current and Past Projects</button></a> 
+    <a href = "Future-Projects.html"><button class="Button">Future Plans</button></a>
+    <a href = "Sign-in.html"><button class="Button">Meeting Sign-up</button></a>
+    <a href = "Contact-Us.html"><button class="Button">Contact Us</button></a>
+    <a href = "Calendar.html"><button class="Button">Calendar</button></a>
+
+
+        <div class="month">
+            <ul>
+              <li><button onClick="Prev();" class="prev">&#10094;</button></li>
+              <li><button onClick="Next();" class="next">&#10095;</button></li>
+              <li id="month" style="font-size:4em;">June</li>
+              <li id="year" style="font-size:4em;">2022</li>
+            </ul>
+          </div>
+        
+          
+          <ul class="weekdays">
+            <li>Su</li>
+            <li>Mo</li>
+            <li>Tu</li>
+            <li>We</li>
+            <li>Th</li>
+            <li>Fr</li>
+            <li>Sa</li>
+          </ul>
+          
+          <ul id="dawn" class="days">
+            <li id="day"></li>
+            <li id="day"></li>
+            <li id="day"></li>
+            <li id="day">1</li>
+            <li id="day">2</li>
+            <li id="day">3</li>
+            <li id="day">4</li>
+            <li id="day">5</li>
+            <li id="day">6</li>
+            <li id="day">7</li>
+            <li id="day">8</li>
+            <li id="day">9</li>
+            <li id="day">10</li>
+            <li id="day">11</li>
+            <li id="day">12</li>
+            <li id="day">13</li>
+            <li id="day">14</li>
+            <li id="day">15</li>
+            <li id="day">16</li>
+            <li id="day">17</li>
+            <li id="day">18</li>
+            <li id="day">19</li>
+            <li id="day">20</li>
+            <li id="day">21</li>
+            <li id="day">22</li>
+            <li id="day">23</li>
+            <li id="day">24</li>
+            <li id="day">25</li>
+            <li id="day">26</li>
+            <li id="day">27</li>
+            <li id="day">28</li>
+            <li id="day">29</li>
+            <li id="day">30</li>
+          </ul>
+        <div class="extra"></div>
+<br><br>
+<footer><strong>&copy;Restorative Justice Coalition</strong></footer>
+
+</body>
+</html>
