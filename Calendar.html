@@ -16,6 +16,7 @@
 		    background-size: 3000px;
 				margin-top: 8px;
 				margin-left: 10px;
+
         overflow-x: hidden;
 		}
 
@@ -25,7 +26,7 @@
                 color: rgb(187, 0, 255);
                 border-color: rgb(255, 0, 149);
                 font-family: 'Times New Roman', serif;
-                font-size: 24px;
+                font-size: 143.75%;
             }
       
 		.Button {
@@ -36,7 +37,8 @@
 		footer {
 		background-color: orange;
 		font-family: cursive;
-		text-align: center
+		text-align: center;
+    margin: -1%;
 		}
     #month {
       font-family: cursive;
@@ -60,7 +62,7 @@
             <ul>
               <li><button onClick="Prev();" class="prev">&#10094;</button></li>
               <li><button onClick="Next();" class="next">&#10095;</button></li>
-              <li id="month" style="font-size:4em;">June</li>
+              <li id="month" style="font-size:4em;">July</li>
               <li id="year" style="font-size:4em;">2022</li>
             </ul>
           </div>
@@ -77,6 +79,8 @@
           </ul>
           
           <ul id="dawn" class="days">
+            <li id="day"></li>
+            <li id="day"></li>
             <li id="day"></li>
             <li id="day"></li>
             <li id="day"></li>
@@ -110,6 +114,7 @@
             <li id="day">28</li>
             <li id="day">29</li>
             <li id="day">30</li>
+            <li id="day">31</li>
           </ul>
         <div class="extra"></div>
 <br><br>
@@ -117,3 +122,4 @@
 
 </body>
 </html>
+
